@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekly Planner</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="planner-container">
+
+        <div class="grid-header">
+            <div class="title"><strong>WEEKLY PLAN</strong></div>
+            <div class="week-of">
+                <label for="week-of">WEEK OF:</label>
+                <input type="text" id="week-of" placeholder="Enter week">
+            </div>
+            <div class="healthy-habit">
+                <label for="healthy-habit">HEALTHY HABIT:</label>
+                <input type="text" id="healthy-habit" placeholder="Enter habit">
+            </div>
+            <div class="checkboxes">
+                <label><input type="checkbox"> ROCKED IT</label>
+                <label><input type="checkbox"> ROOM FOR IMPROVEMENT</label>
+            </div>
+        </div>
+
+
+        <div class="main-content">
+
+            <div class="single-column">
+                <div class="goals">
+                    <h2>Top 3 Goals</h2>
+                    <ul class="checklist">
+                        <li><input type="checkbox"> <input type="text" placeholder="Goal 1"></li>
+                        <li><input type="checkbox"> <input type="text" placeholder="Goal 2"></li>
+                        <li><input type="checkbox"> <input type="text" placeholder="Goal 3"></li>
+                    </ul>
+                </div>
+                
+                <div class="todo">
+                    <h2>Everything Else</h2>
+                    <ul class="checklist">
+                        <li><input type="checkbox"> <input type="text" placeholder="Task 1"></li>
+                        <li><input type="checkbox"> <input type="text" placeholder="Task 2"></li>
+                        <li><input type="checkbox"> <input type="text" placeholder="Task 3"></li>
+                        <li><input type="checkbox"> <input type="text" placeholder="Task 4"></li>
+                        <li><input type="checkbox"> <input type="text" placeholder="Task 5"></li>
+                        <li><input type="checkbox"> <input type="text" placeholder="Task 6"></li>
+                        <li><input type="checkbox"> <input type="text" placeholder="Task 7"></li>
+                        <li><input type="checkbox"> <input type="text" placeholder="Task 8"></li>
+                    </ul>
+                </div>
+
+                <div class="next-week">
+                    <h2>Next Week</h2>
+                    <ul class="checklist">
+                        <li><input type="checkbox"> <input type="text" placeholder="Task for next week"></li>
+                        <li><input type="checkbox"> <input type="text" placeholder="Task for next week"></li>
+                        <li><input type="checkbox"> <input type="text" placeholder="Task for next week"></li>
+                    </ul>
+                </div>
+            </div>
+            
+
+            <div class="week-table">
+                <div class="day">
+                    <h3>Monday <input type="checkbox"></h3>
+                    <textarea placeholder="Add your plans for Monday"></textarea>
+                </div>
+                <div class="day">
+                    <h3>Tuesday <input type="checkbox"></h3>
+                    <textarea placeholder="Add your plans for Tuesday"></textarea>
+                </div>
+                <div class="day">
+                    <h3>Wednesday <input type="checkbox"></h3>
+                    <textarea placeholder="Add your plans for Wednesday"></textarea>
+                </div>
+                <div class="day">
+                    <h3>Thursday <input type="checkbox"></h3>
+                    <textarea placeholder="Add your plans for Thursday"></textarea>
+                </div>
+                <div class="day">
+                    <h3>Friday <input type="checkbox"></h3>
+                    <textarea placeholder="Add your plans for Friday"></textarea>
+                </div>
+                <div class="day">
+                    <h3>Saturday <input type="checkbox"></h3>
+                    <textarea placeholder="Add your plans for Saturday"></textarea>
+                </div>
+                <div class="day">
+                    <h3>Sunday <input type="checkbox"></h3>
+                    <textarea placeholder="Add your plans for Sunday"></textarea>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
